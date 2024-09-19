@@ -30,9 +30,11 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
 
 ## Prerequisites
 
+```bash
+
 node -v (v18.20)
 npm -v  (10.7)
-
+```
 
 ## Install the Angular CLI
 
