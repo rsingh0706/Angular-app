@@ -1,25 +1,25 @@
 
-# project Angular-app
+# Angular App Setup Guide
 
 
-# Description
+# Project Overview
+ 
+This project is an Angular web application developed using Angular, a popular open-source front-end framework maintained by Google.
 
-An Angular project is a web application or website developed using Angular, a popular open-source front-end web framework maintained by Google.
+
+# Prerequisites
+
+Before you begin, ensure you have the following installed on your Linux system:
 
 
-
-## linux essentials
+## Linux Essentials
 
 ```bash
 sudo apt update
-sudo apt install curl
-sudo apt install git 
+sudo apt install curl git -y
 ```
 
-
-## prerequisites commands
-
-To install Angular on Ubuntu, you'll need to install Node.js and the Angular CLI (Command Line Interface). Here's a step-by-step guide
+## Install Node.js and Angular CLI
 
 ```bash
 
@@ -38,7 +38,10 @@ npm -v  (10.7)
 ng version
 ```
 
-#### How to run Installation
+#### How to Set Up and Run the Angular Application
+
+Follow these steps to set up and run the Angular project on your local machine:
+
 
 1. Clone the repository
 
