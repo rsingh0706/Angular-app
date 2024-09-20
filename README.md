@@ -7,11 +7,9 @@
 An Angular project is a web application or website developed using Angular, a popular open-source front-end web framework maintained by Google.
 
 
-# Getting Started
+# prerequisites commands
 
 To install Angular on Ubuntu, you'll need to install Node.js and the Angular CLI (Command Line Interface). Here's a step-by-step guide
-
-## Install Node.js and npm
 
 ```bash
 
@@ -20,20 +18,30 @@ curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install nodejs -y
 ```
 
-## Angular requires Node.js and npm (Node Package Manager) to be installed on your system.
+## linux essentials
+
+```bash
+sudo apt update
+sudo apt install curl
+sudo apt install git
+```
+
+## Angular requirement (Install the Angular CLI)
+
+
+Once Node.js and npm are installed, you can install the Angular CLI globally
 
 ```bash
 
-sudo apt update
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+sudo npm install -g @angular/cli
 ```
-
-## Prerequisites
+## Verify the installation
 
 ```bash
 
 node -v (v18.20)
 npm -v  (10.7)
+ng version
 ```
 
 ## Install the Angular CLI
@@ -45,24 +53,14 @@ Once Node.js and npm are installed, you can install the Angular CLI globally
 sudo npm install -g @angular/cli
 ```
 
-Verify the installation
+#### How to run Installation
 
-```bash
-
-ng version
-```
-
-
-#### Installation
-
-1. **Clone the repository:**
-
+1. Clone the repository
 
 ```bash
 
 https://github.com/rsingh0706/Angular-app.git
 ```
-
 
 2. Navigate into the project directory
 
@@ -84,7 +82,6 @@ npm install
 
 ng serve
 ```
-
 
 By default, the app will be available at http://localhost:4200
 
