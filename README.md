@@ -44,15 +44,6 @@ npm -v  (10.7)
 ng version
 ```
 
-## Install the Angular CLI
-
-Once Node.js and npm are installed, you can install the Angular CLI globally
-
-```bash
-
-sudo npm install -g @angular/cli
-```
-
 #### How to run Installation
 
 1. Clone the repository
