@@ -14,18 +14,35 @@ Before you begin, ensure you have the following installed on your Linux system:
 
 ## Linux Essentials
 
+Update your package list and install curl and git:
+
 ```bash
+
 sudo apt update
 sudo apt install curl git -y
 ```
 
 ## Install Node.js and Angular CLI
 
+To install Node.js and the Angular CLI:
+
+1. Update your system:
+
 ```bash
 
 sudo apt update
+```
+2. Install Node.js (version 18.x):
+
+```bash
+
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install nodejs -y
+```
+3. Install the Angular CLI globally:
+
+```bash
+ 
 sudo npm install -g @angular/cli
 ```
 
@@ -57,7 +74,7 @@ https://github.com/rsingh0706/Angular-app.git
 cd angular-app
 ```
 
-3. Install the dependencies
+3. Install Dependencies
 
 ```bash
 
@@ -73,6 +90,16 @@ ng serve
 
 By default, the app will be available at http://localhost:4200
 
+### Additional Configuration (Optional)
 
- 
+* If you need to change the default port (4200), use the following command:
+
+```bash
+ng serve --port 4300
+```
+* If you want the server to be accessible on your local network:
+
+```bash
+ng serve --host 0.0.0.0
+```
 
