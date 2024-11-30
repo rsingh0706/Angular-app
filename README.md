@@ -64,7 +64,7 @@ Follow these steps to set up and run the Angular project on your local machine:
 
 ```bash
 
-https://github.com/rsingh0706/Angular-app.git
+git clone https://github.com/rsingh0706/Angular-app.git
 ```
 
 2. Navigate into the project directory
